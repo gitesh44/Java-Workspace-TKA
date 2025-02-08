@@ -1,0 +1,53 @@
+/*
+  ---->
+  i) Static methods only can access only static static data
+     It cannot access a non static data i.e instance data
+     
+------->>>>Example---------     
+     
+     Class StaticDemo{
+     static void display(){
+          System.out.println("Hello");
+          
+          }
+     
+     
+     
+  ii) Static method can call only  other static method 
+     and cannot call a non static method.
+     
+------->>>>Example---------     
+     
+     Class StaticDemo{
+     static void display(){
+          System.out.println("Hello");  //here non static method show() cannot be referred from static context
+          }
+     void show(){                     
+          System.out.println("2");
+      }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
